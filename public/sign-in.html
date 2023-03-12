@@ -1,0 +1,41 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"> -->
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="/api/v1/register" method="post">
+            <div class="user_details">
+                <div class="input_pox">
+                    <span class="datails">Full Name</span><br>
+                    <input type="text" name="name"  placeholder="enter your name" required>
+                </div><br>
+                <div class="input_pox">
+                    <span class="datails">Email</span><br>
+                    <input type="text" name="email" placeholder="enter your Email" required>
+                </div><br>
+                <div class="input_pox">
+                    <span class="datails">Password</span><br>
+                    <input type="text" name="password" placeholder="enter your Password" required>
+                </div><br>
+            </div>
+            
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
